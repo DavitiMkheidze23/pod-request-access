@@ -1,0 +1,114 @@
+@media only screen and (min-width: 376px){
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+ body {
+    background-color: #121725;
+ }
+ section {
+    padding: 102px 0px 130px 165px;
+    display: flex;
+ }
+ .left-info-div{
+    width: 723px;
+    background-color: #121725;
+    height: 509px;
+    margin-top: 103px;
+    position: absolute;
+    padding: 88px 0px 0px 0px;
+ }
+ h1{
+    width: 665px;
+    height: 124px;
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #54E6AF;
+ }
+ span{
+    color: #fff;
+ }
+ p{
+    width: 445px;
+    height: 84px;
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color:#C2CBE5;
+    margin-top: 24px;
+ }
+ input::placeholder{
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+    opacity: 0.5;
+ }
+ input{
+    width: 427px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #2C344B;
+    border: 0;
+    padding: 0px 0px 0px 32px;
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+ }
+ .button {
+    width: 162px;
+    height: 46px;
+    border-radius: 28px;
+    background-color: #54E6AF;
+    box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #121725;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 291px;
+ }
+ .button:hover{
+    background-color: #B3FFE2;
+ }
+ .icon-div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 64px;
+}
+.main-img{
+    width: 962px;
+    height: 640px;
+    margin-top: 28px;
+    margin-left: 222px;
+}
+.pattern-img {
+    margin-top: -55px;
+    margin-left: 952px;
+}
+.hidden-p{
+    font-family: 'Chivo';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.28px;
+    color: #FB3E3E;
+    margin-top: 5px;
+    margin-left: 33px;
+    position: absolute;
+    display: none;
+}
+.right-img-div{
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pod</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <section>
+        <div class="left-div">
+            <div class="logo-div">
+                <img src="logo.svg" class="logo">
+            </div>
+            <div class="left-info-div">
+                <h1>PUBLISH YOUR PODCAST <SPAn>EVERYWHERE</SPAn></h1>
+                <p>Upload your audio to Pod with a single click. 
+                    We’ll then distribute your podcast to Spotify,
+                     Apple Podcasts, Google Podcasts, Pocket Casts and more!
+                    </p>
+                    <div class="mail-div">
+                        <button class="button">Request Access</button>
+                        <input type="mail" placeholder="Email adress">
+                    </div>
+                    <p class="hidden-p">Oops! Please check your email</p>
+                    <div class="icon-div">
+                        <img src="spotify.svg" class="icons spotify">
+                        <img src="apple-podcast.svg" class="icons apple">
+                        <img src="google-podcasts.svg" class="icons google">
+                        <img src="pocket-casts.svg" class="icons pocket">
+                    </div>
+                </div>
+        </div>
+        <div class="right-img-div">
+            <img src="image-host.jpg" class="main-img">
+            <img src="bg-pattern-dots.svg"  class="pattern-img">
+        </div>
+    </section>
+    <script>
+        const button = document.querySelector(".button")
+        const hiddenP = document.querySelector(".hidden-p")
+
+        button.addEventListener('click', function(){
+            hiddenP.style.display = 'inline'
+        })
+    </script>
+</body>
+</html>

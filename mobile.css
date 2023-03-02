@@ -1,0 +1,121 @@
+@media only screen and (max-width: 376px){
+    @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+    .right-img-div{
+        display: none;
+    }
+    body {
+        background-color: #121725;
+     }
+     section {
+        padding: 62px 24px 0px 24px;
+        display: flex;
+     }
+     .logo-div{
+        margin-left: 96px;
+     }
+     h1{
+        width: 327px;
+        height: 76px;
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 38px;
+        color: #54E6AF;
+        margin-top: 57px;
+        text-align: center;
+     }
+     span{
+        color: #fff;
+     }
+     p{
+        width: 285px;
+        height: 100px;
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color:#C2CBE5;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 23px;
+     }
+     input::placeholder{
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: white;
+        opacity: 0.5;
+     }
+     input{
+        width: 295px;
+        height: 46px;
+        border-radius: 28px;
+        background-color: #2C344B;
+        border: 0;
+        padding: 0px 0px 0px 32px;
+        color: #fff;
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        position: absolute;
+     }
+     .button {
+        width: 327px;
+        height: 46px;
+        border-radius: 28px;
+        background-color: #54E6AF;
+        box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #121725;
+        cursor: pointer;
+        border: none;
+        margin-top: 70px;
+     }
+     .button:hover{
+        background-color: #B3FFE2;
+     }
+     .hidden-p{
+        font-family: 'Chivo';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.28px;
+        color: #FB3E3E;
+        position: absolute;
+        display: none;
+        margin-left: -38px;
+        margin-top: 147px;
+    }
+    .pocket{
+        width: 77px;
+        height: 15px;
+    }
+    .google{
+        width: 73px;
+        height: 11px;
+    }
+    .apple{
+        width: 45px;
+        height: 17px;
+    }
+    .spotify{
+        width: 56px;
+        height: 17px;
+    }
+    .icon-div{
+        margin-left: 7px;
+        display: flex;
+        align-items: center;
+        gap: 21px;
+        margin-top: 35px;
+    }
+    .mail-div{
+        position: absolute;
+        margin-top: 100px;
+        display: flex;
+    }
+}
